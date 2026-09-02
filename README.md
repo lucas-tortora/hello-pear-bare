@@ -103,9 +103,11 @@ The main CLI starts `workers/main.js` as a Bare sidecar and communicates with it
 
 Use the [`pear`][pear-docs] CLI to deploy applications.
 
-Set the `upgrade` field in `package.json` to your distribution drive link, then follow the default flow from section 4 onward:
+The full release flow — stage, provision, and multisig — plus the Foundational Steps, release lines, and per-OS build/signing details now live in the Pear docs:
 
-[hello-pear-electron: 4. Build Deployment Directory and onward](https://github.com/holepunchto/hello-pear-electron#4-build-deployment-directory-)
+- [Deploy your application](https://docs.pears.com/how-to/operate-an-app/manual-deployment/deployment) — the eight Foundational Steps, command by command
+- [Release pipeline](https://docs.pears.com/explanation/deployment-releasing-apps-p2p) — why stage, provision, and multisig exist and how they chain together
+- [Build desktop distributables](https://docs.pears.com/how-to/operate-an-app/build-and-package/build-desktop-distributables) — macOS, Windows, and Linux signing and notarization
 
 ## Installing Distributables
 
